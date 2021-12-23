@@ -25,7 +25,7 @@ class GifItem extends Component {
   render() {
     return (
       <li className="gif-wrap">
-        <img className="image-loaded" ref={node => (this.imageNode = node)} />
+        <img className="image-loaded" alt="" ref={node => (this.imageNode = node)} />
       </li>
     );
   }
